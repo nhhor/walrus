@@ -1,3 +1,7 @@
+body{
+  text-align: center;
+}
+
 #walrus-showing {
   display: none;
 }
@@ -12,4 +16,12 @@
 
 .clickable:hover, .clickable2:hover {
   text-decoration: underline;
+}
+
+#middle {
+  display: none;
+}
+
+#reveal {
+  display: none;
 }

@@ -7,4 +7,12 @@ $(document).ready(function() {
     $('#clam-showing').fadeToggle();
     $('#clam-hidden').fadeToggle();
   });
+  $('h1').click(function() {
+    $('#left').toggle();
+    $('#middle').toggle();
+    $('#right').toggle();
+  });
+  $('#teaser').hover(function() {
+    $('#reveal').toggle();
+  });
 });
