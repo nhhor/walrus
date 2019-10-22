@@ -14,5 +14,8 @@ $(document).ready(function() {
   });
   $('#teaser').hover(function() {
     $('#reveal').toggle();
+    $("body").css("background-color", "#00ff00");
+
+
   });
 });
