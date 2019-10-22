@@ -14,8 +14,23 @@ $(document).ready(function() {
   });
   $('#teaser').hover(function() {
     $('#reveal').toggle();
-    $("body").css("background-color", "#00ff00");
+    $("#right").removeClass("noBackground");
+    $("#right").addClass("green-background");
 
-
+  });
+  $("button#light").click(function() {
+    $("body").removeClass();
+    $("body").addClass("lightTheme")
+  });
+  $("button#dark").click(function() {
+    $("body").removeClass();
+    $("body").addClass("darkTheme")
+  });
+  $("button#noTheme").click(function() {
+    $("body").removeClass();
+  });
+  $("p").click(function() {
+    $(this).removeClass();
+    $(this).addClass("highlight")
   });
 });
