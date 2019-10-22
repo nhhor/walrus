@@ -1,0 +1,15 @@
+#walrus-showing {
+  display: none;
+}
+#clam-showing {
+  display: none;
+}
+
+.clickable, .clickable2 {
+  cursor: pointer;
+  color: #0088cc;
+}
+
+.clickable:hover, .clickable2:hover {
+  text-decoration: underline;
+}
