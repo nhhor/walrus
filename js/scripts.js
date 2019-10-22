@@ -30,7 +30,6 @@ $(document).ready(function() {
     $("body").removeClass();
   });
   $("p").click(function() {
-    $(this).removeClass();
-    $(this).addClass("highlight")
+    $(this).toggleClass("highlight")
   });
 });
